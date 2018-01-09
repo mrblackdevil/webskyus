@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>WebSkyUS Web Developer</title>
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta property="og:image" content="path/to/image.jpg">
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#292b3a">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#292b3a">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#292b3a">
+		<style>
+			body {
+				opacity: 0;
+				overflow-x: hidden;
+			}
+			html {
+				background-color: #292b3a;
+			}
+		</style>
+	</head>
+	<body class="is-home">
+		<div id="preloader"><div id="preloader-loader"></div>	</div>
+		<header class="header">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Логотип сайта -->
+					<div class="col-xs-4 col-sm-3">
+						<div class="header__logo">
+							<img src="./img/header/logo.svg" alt="WebSkyUS Logo">
+							<a href="#">WebSkyUS</a>
+						</div>
+					</div>
+					<!-- Меню с обратной связью -->
+					<div class="col-xs-8 col-sm-9">
+						<div class="header__menu pull-right">
+							<div class="header__menu-link">
+								<a href="#test-form" class="header__nav-button popup-with-form">
+									<i class="fa fa-telegram" aria-hidden="true"></i>
+									Обратная связь</a>
+							</div>
+							<nav class="header__menu-nav">
+								<ul class="header__menu-item">
+									<li class="header__menu-list"><img src="./img/header/userpic5.jpg" alt="WebSkyUS Photo">
+										<i class="fa fa-angle-down" aria-hidden="true"></i>
+										<ul class="header__nav-inner">
+											<li class="header__inner-item header__inner-item--l1">
+												<a href="https://vk.com/uchihaizuna" target="_blank">
+													<i class="fa fa-vk"></i>
+												</a>
+											</li>
+											<li class="header__inner-item header__inner-item--l2">
+												<a href="https://www.facebook.com/orhan.abbasov.54" target="_blank">
+													<i class="fa fa-facebook"></i>
+												</a>
+											</li>
+											<li class="header__inner-item header__inner-item--l3">
+												<a href="https://www.linkedin.com/in/orkhan-abbasov-118047149/" target="_blank">
+													<i class="fa fa-linkedin"></i>
+												</a>
+											</li>
+											<li class="header__inner-item header__inner-item--l4">
+												<a href="https://github.com/mrblackdevil" target="_blank">
+													<i class="fa fa-github"></i>
+												</a>
+											</li>
+											<li class="header__inner-item header__inner-item--l4">
+												<a href="skype:live:webskyus">
+													<i class="fa fa-skype"></i>
+												</a>
+											</li>
+											<li class="header__inner-item header__inner-item--l5" title="CV Download">
+												<a href="./files/cv.pdf" target="_blank">
+													<i class="fa fa-sticky-note-o"></i>
+												</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<!-- Сайдбар сайта -->
+			<aside class="aside">
+				<!--Кнопка для вывода меню -->
+				<button class="aside__nav-button">
+					<strong>Меню навигации</strong>
+					<span class="aside__button-line-inactive"></span>
+				</button>
+				<!-- Меню навигации в виде иконкок -->
+				<nav class="aside__icon-nav">
+					<ul class="aside__icon-item">
+						<li title="Обо мне">
+							<a class="link" href="#about"><img src="./img/menu-img/aboutus.svg" alt="Информация о webskyus"></a>
+						</li>
+						<li title="Навыки">
+							<a class="link" href="#skill"><img src="./img/menu-img/skills.svg" alt="Навыки webskyus"></a>
+						</li>
+						<li title="Портфолио">
+							<a class="link" href="#portf"><img src="./img/menu-img/work.svg" alt="Портфолио webskyus"></a>
+						</li>
+						<li title="Резюме">
+							<a class="link" href="#summary"><img src="./img/menu-img/service.svg" alt="cv webskyus"></a>
+						</li>
+						<li title="Обратная связь">
+							<a class="link" href="#letter"><img src="./img/menu-img/feedback.svg" alt="Обратная связь webskyus"></a>
+						</li>
+					</ul>
+				</nav>
+				<!-- Меню навигации -->
+				<nav class="aside__nav ">
+					<ul class="aside__item">
+						<li>
+							<a href="#about" class="link">
+								<i class="fa fa-terminal"></i>Обо мне</a>
+						</li>
+						<li>
+							<a href="#skill" class="link">
+								<i class="fa fa-bolt"></i>
+								Навыки</a>
+						</li>
+						<li>
+							<a href="#portf" class="link">
+								<i class="fa fa-file-code-o"></i>Портфолио</a>
+						</li>
+						<li>
+							<a href="#summary" class="link">
+								<i class="fa fa-sticky-note-o"></i>Резюме</a>
+						</li>
+						<li>
+							<a href="#letter" class="link">
+								<i class="fa fa-envelope-o"></i>Обратная связь</a>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+			<!-- Контентная часть сайта -->
+			<section class="content">
+				<!--Блок обо мне -->
+				<section class="aboutus" id="about">
+					<div class="row">
+						<div class="col-sm-10">
+							<div class="aboutus__title">
+								<h1>Верстка сайта быстро, доступно в заданный срок</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-10">
+							<div class="aboutus__text">
+								<p>
+									Доброго времени суток! Для начало представлюсь, меню зовут Орхан и я
+									<u>web developer</u>. Итак если вы зашли на данный сайт, то вам могут быть интересны мои услуги по веб разработки. Если вам необходимо сверстать ваш проект и вы не знаете кому его доверить, или же у вас был не удачный опыт с "мастерами" от мира
+									программирования, то я могу предоставить свои услуги. Для меня главное качественно выполнить проект, так если бы я делал его для себя, или даже на какой то конкурс по разработке. Владею базовыми навыками SEO что позовляет создавать сайты уже
+									оптимизированные под поисковые системы google и yandex. Так же возможна доработка и внесение каких либо правок уже имеющийся проект, посадка на различные CMS системы.
+									<br>
+								</p>
+								<div class="row">
+									<div class="col-sm-6">
+										<ul class="aboutus__text-list">
+											<li>
+												<u>Преимущество при работе со мной:</u>
+											</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												Четкое соблюдение дедлайнов.</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												В режиме онлайн 24/7.</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												Моментальные правки и последующая помощь.</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												Индивидуальный подход к каждому проекту.</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												Отзывы на <a href="https://www.weblancer.net/users/webskyus/reviews/" target="_blank">weblancer</a>.
+											</li>
+											<li>
+												<i class="fa fa-superpowers"></i>
+												Доступный прайс.
+											</li>
+										</ul>
+									</div>
+									<div class="col-sm-6">
+										<ul class="aboutus__text-list">
+											<li>
+												<u>Разработка следующих проектов:</u>
+											</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Landing Page.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Сайты визитки.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Сайты услуг.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Информационные сайты.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												HTML письма.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Правки и доработки готового проекта.</li>
+											<li>
+												<i class="fa fa-code"></i>
+												Посадка готового проекта на следующие CMS
+												<br>
+												Shop-Script/Wordpress/Drupal/Joomla/MODX/Opencart.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<a href="#test-form" class="aboutus__btn pull-right popup-with-form">Заказать разработку</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2">
+							<div class="aboutus__img">
+								<img src="./img/content-img/line-graphic.svg" alt='Верстка сайта'>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Блок навыки -->
+				<section class="skills" id="skill">
+					<!-- Заголовок блока skills -->
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig">
+							<div class="skills__title">
+								<h2>навыки</h2>
+							</div>
+							<div class="skills__text">
+								<p>
+									Думаю вам будет интересно знать что проблему которую у вас есть, а именно верстку, доработку или же какие либо правки, будет выполнять профессионал, который имеет знания и опыт в данной области, что позволит выполнить поставленную задачу быстро и
+									качественно. Ниже будет приведен список моих "скиллов" в web программировании.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-2 wow fadeInRightBig">
+							<div class="skills__img">
+								<img src="./img/content-img/skill-img.svg" alt="Навыки, умения программиста webskyus">
+							</div>
+						</div>
+					</div>
+					<!-- Контент блока skills -->
+					<div class="row">
+						<div class="skills__list wow fadeInUpBig" data-wow-delay="0.75s">
+							<ul class="skills__list-item">
+								<li><img src="./img/icon-skills/html.svg" alt="HTML5">
+									<b>HTML5</b>
+								</li>
+								<li><img src="./img/icon-skills/css.svg" alt="CSS3">
+									<b>CSS3</b>
+								</li>
+								<li><img src="./img/icon-skills/js.svg" alt="JS">
+									<b>JS</b>
+								</li>
+								<li><img src="./img/icon-skills/jquery.svg" alt="JQuery">
+									<b>JQuery</b>
+								</li>
+								<li><img src="./img/icon-skills/ajax.svg" alt="Ajax">
+									<b>Ajax</b>
+								</li>
+								<li><img src="./img/icon-skills/bootstrap.svg" alt="Bootstrap">
+									<b>Bootstrap</b>
+								</li>
+								<li><img src="./img/icon-skills/github.svg" alt="Github">
+									<b>Github</b>
+								</li>
+								<li><img src="./img/icon-skills/git.svg" alt="Git">
+									<b>Git</b>
+								</li>
+								<li><img src="./img/icon-skills/grunt.svg" alt="Grunt">
+									<b>Grunt</b>
+								</li>
+								<li><img src="./img/icon-skills/gulp-1.svg" alt="Gulp">
+									<b>Gulp</b>
+								</li>
+								<li><img src="./img/icon-skills/less.svg" alt="Less">
+									<b>Less</b>
+								</li>
+								<li><img src="./img/icon-skills/sass.svg" alt="Sass">
+									<b>Sass</b>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<!--Блок портфолио -->
+				<section class="portfolio" id="portf">
+					<!-- Закголовок блока портфолио -->
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig">
+							<div class="portfolio__title">
+								<h2>Портфолио</h2>
+							</div>
+						</div>
+					</div>
+					<!-- Текст блока портфолио -->
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig"  data-wow-delay="0.25s">
+							<div class="portfolio__text">
+								<p>
+									Для того что узнать что ожидать от программиста, необходимо ознакомиться с предыдущими его работами, посмотреть на наличии или же отстутсвие ошибок и других тонкостей, так стоит обратить внимание на чистоту кода и кроссбраузерность проекта. Для
+									работодателей будет важным пунктом наличии реальных проектов и опыта в "боевых" условиях и сложность выполняемых работ. Ознакомиться с моими проектами можно ниже с описанием технологий используемых при их разработке.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-2 wow fadeInRightBig" data-wow-delay="0.35s">
+							<div class="portfolio__img">
+								<img src="./img/content-img/portfolio-img.svg" alt="Портфолио WebSkyUS">
+							</div>
+						</div>
+					</div>
+					<!-- Контент блока портфолио webdesign-->
+					<div class="row">
+						<div class="portfolio__box">
+							<div class="col-sm-6 wow  wow flipInX" data-wow-delay="0.75s">
+								<div class="portfolio__box-img">
+									<img src="./img/work-img/webdesign.png" alt="Портфолио, работы webskyus, webdesign">
+								</div>
+							</div>
+							<div class="col-sm-6 wow fadeInRightBig">
+								<div class="portfolio__box-text">
+									<h2>webdesign</h2>
+									<p>
+										Как то наткнулся на данный psd макет и был очерован данным дизайном, решел перевести его из макета в веб, на выходе получился очень красивый и стильный сайт. Были использованы следующие шрифты MinionPro, Open-sans и Montserrat.
+									</p>
+									<p class="portfolio__text-descr">
+										<i class="fa fa-code"></i>
+										При разработке использовались следующие технологии:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<span>html5</span></li>
+										<li>
+											<span>css3</span></li>
+										<li>
+											<span>js</span></li>
+										<li>
+											<span>jquery</span></li>
+										<li>
+											<span>bootstrap grid</span></li>
+										<li>
+											<span>sass</span></li>
+									</ul>
+									<p class="portfolio__text-link">
+										<i class="fa fa-external-link-square"></i>
+										Ссылки на данный проект:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<a href="https://mrblackdevil.github.io/webdesign/" target="_blank">Github Pages</a>
+										</li>
+										<li>
+											<a href="https://github.com/mrblackdevil/webdesign" target="_blank">Github Repository</a>
+										</li>
+										<li>
+											<a href="https://www.weblancer.net/users/webskyus/portfolio/html-verstka-32/webdesign-2160002/" target="_blank">Weblancer</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Контент проекта mogo блока портфолио -->
+					<div class="row">
+						<div class="portfolio__box">
+							<div class="col-sm-6 wow fadeInLeftBig">
+								<div class="portfolio__box-text">
+									<h2>mogo</h2>
+									<p>
+										Данный проект так же не обделен красивым дизайном, при верстке соблюдалась кроссбраузерность, были использованы следующие шрифты, а именно KaushanScript, Roboto, Montserrat.
+									</p>
+									<p class="portfolio__text-descr">
+										<i class="fa fa-code"></i>
+										При разработке использовались следующие технологии:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<span>html5</span></li>
+										<li>
+											<span>css3</span></li>
+										<li>
+											<span>js</span></li>
+										<li>
+											<span>jquery</span></li>
+										<li>
+											<span>bootstrap grid</span></li>
+										<li>
+											<span>sass</span></li>
+									</ul>
+									<p class="portfolio__text-link">
+										<i class="fa fa-external-link-square"></i>
+										Ссылки на данный проект:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<a href="https://mrblackdevil.github.io/mogo/" target="_blank">Github Pages</a>
+										</li>
+										<li>
+											<a href="https://github.com/mrblackdevil/mogo" target="_blank">Github Repository</a>
+										</li>
+										<li>
+											<a href="https://www.weblancer.net/users/webskyus/portfolio/html-verstka-32/mogo-2158177/" target="_blank">Weblancer</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6 wow flipInX" data-wow-delay="0.75s">
+								<div class="portfolio__box-img">
+									<img src="./img/work-img/mogo.png" alt="Портфолио, работы webskyus, webdesign">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Контент проекта shopno блока портфолио -->
+					<div class="row">
+						<div class="portfolio__box">
+							<div class="col-sm-6 wow flipInX" data-wow-delay="0.75s">
+								<div class="portfolio__box-img">
+									<img src="./img/work-img/shopno1.png" alt="Портфолио, работы webskyus, webdesign">
+								</div>
+							</div>
+							<div class="col-sm-6 wow fadeInRightBig">
+								<div class="portfolio__box-text">
+									<h2>shopno</h2>
+									<p>
+										Сайт выполнен в серых тонах, что не сомненно выглядят очень красиво и стильно. При разработке использовалась анимация при скроле на определенную часть контента, что положительно отобразилось на данном сайте. Кроссбраузерностью и валидным кодом проект
+										не обделен. По шрифтам Merriweather, Montserrat, Raleway.
+									</p>
+									<p class="portfolio__text-descr">
+										<i class="fa fa-code"></i>
+										При разработке использовались следующие технологии:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<span>html5</span></li>
+										<li>
+											<span>css3</span></li>
+										<li>
+											<span>js</span></li>
+										<li>
+											<span>jquery</span></li>
+										<li>
+											<span>bootstrap grid</span></li>
+										<li>
+											<span>sass</span></li>
+									</ul>
+									<p class="portfolio__text-link">
+										<i class="fa fa-external-link-square"></i>
+										Ссылки на данный проект:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<a href="https://mrblackdevil.github.io/shopno/" target="_blank">Github Pages</a>
+										</li>
+										<li>
+											<a href="https://github.com/mrblackdevil/shopno" target="_blank">Github Repository</a>
+										</li>
+										<li>
+											<a href="https://www.weblancer.net/users/webskyus/portfolio/html-verstka-32/shopno-2158865/" target="_blank">Weblancer</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Контент проекта tlconsulting блока портфолио -->
+					<div class="row">
+						<div class="portfolio__box">
+							<div class="col-sm-6 wow fadeInLeftBig">
+								<div class="portfolio__box-text">
+									<h2>tlconsulting</h2>
+									<p>
+										Проект был разработан для юрюдической компании TLconsulting. Лендинг пейдж обладает кроссбраузерностью и валидным кодом, так же был разработам калькулятор для вычисление стоимости услуг. По шрифтам GothamPro.
+									</p>
+									<p class="portfolio__text-descr">
+										<i class="fa fa-code"></i>
+										При разработке использовались следующие технологии:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<span>html5</span></li>
+										<li>
+											<span>css3</span></li>
+										<li>
+											<span>js</span></li>
+										<li>
+											<span>jquery</span></li>
+										<li>
+											<span>bootstrap grid</span></li>
+										<li>
+											<span>less</span></li>
+									</ul>
+									<p class="portfolio__text-link">
+										<i class="fa fa-external-link-square"></i>
+										Ссылки на данный проект:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<a href="http://xn-----dlcbnauwtpcudjfq.xn--p1ai/" target="_blank">Ссылка на сайт</a>
+										</li>
+										<li>
+											<a href="https://github.com/mrblackdevil/freelnace-project-4" target="_blank">Github Repository</a>
+										</li>
+										<li>
+											<a href="https://www.weblancer.net/users/webskyus/portfolio/html-verstka-32/tlconsulting-2151573/" target="_blank">Weblancer</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-sm-6 wow flipInX" data-wow-delay="0.75s">
+								<div class="portfolio__box-img">
+									<img src="./img/work-img/Tl1.png" alt="Портфолио, работы webskyus, webdesign">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Контент проекта online shop блока портфолио -->
+					<div class="row">
+						<div class="portfolio__box">
+							<div class="col-sm-6 wow flipInX" data-wow-delay="0.75s">
+								<div class="portfolio__box-img">
+									<img src="./img/work-img/ShopOnline.png" alt="Портфолио, работы webskyus, webdesign">
+								</div>
+							</div>
+							<div class="col-sm-6 wow fadeInRightBig">
+								<div class="portfolio__box-text">
+									<h2>Online shop flinto</h2>
+									<p>
+										Думаю один из времязатратных проектов. Многостраничник обладает красивым дизайном и удобством для пользователя. В данном проекте есть так же страницы с блогом компании, страница с предзаказом и товарами которые скоро появятся в магазине (с таймером
+										обратного отсчета). Как и все мои проекты так же имеет адаптивный дизайн, что касается шрифтом были использованы Emerald, Lemon, Poppins.
+									</p>
+									<p class="portfolio__text-descr">
+										<i class="fa fa-code"></i>
+										При разработке использовались следующие технологии:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<span>html5</span></li>
+										<li>
+											<span>css3</span></li>
+										<li>
+											<span>js</span></li>
+										<li>
+											<span>jquery</span></li>
+										<li>
+											<span>bootstrap grid</span></li>
+										<li>
+											<span>sass</span></li>
+									</ul>
+									<p class="portfolio__text-link">
+										<i class="fa fa-external-link-square"></i>
+										Ссылки на данный проект:</p>
+									<ul class="portfolio__text-list">
+										<li>
+											<a href="https://mrblackdevil.github.io/flinto-shop/" target="_blank">Github Pages</a>
+										</li>
+										<li>
+											<a href="https://github.com/mrblackdevil/flinto-shop" target="_blank">Github Repository</a>
+										</li>
+										<li>
+											<a href="https://www.weblancer.net/users/webskyus/portfolio/html-verstka-32/online-shop-flinto-2162405/" target="_blank">Weblancer</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Блок резюме -->
+				<section class="cv" id="summary">
+					<!-- Закголовок блока резюме -->
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig">
+							<div class="cv__title">
+								<h2>Резюме</h2>
+							</div>
+						</div>
+					</div>
+					<!-- Текст описание блока резюме -->
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig" data-wow-delay="0.75s">
+							<div class="cv__text">
+								<p>
+									На данном этапе можно более детально ознакомится с моим cover letter, узнать всю необходимую информацию обо мне. Если вы работодатель и заинтересовались проектами которые я разработал, то есть возможность скачать CV кликнув на иконку в верхнем меню,
+									в разделе обратная связь а так же в конце данной страницы.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-2 wow fadeInRightBig" data-wow-delay="0.85s">
+							<div class="cv__img">
+								<img src="./img/content-img/cv-img.svg" alt="Резюме, cv, cover letter, cv WebSkyUS, резюме WebSkyUS">
+							</div>
+						</div>
+					</div>
+					<!-- Контент блока резюме -->
+					<div class="row">
+						<!-- Сайдбар резюме -->
+						<div class="col-sm-5 wow fadeInLeftBig">
+							<!-- Сайдбар резюме -->
+							<div class="cv__sidebar">
+								<!-- Картинка профиля -->
+								<div class="cv__sidebar-img">
+									<img src="img/header/userpic5.jpg" alt="фото WebSkyUS">
+									<br>
+									<strong>Abbasov Orkhan</strong>
+									<br>
+									<small>Junior Front-End Developer</small>
+								</div>
+								<!-- Знания языков -->
+								<div class="cv__sidebar-lang">
+									<h3>Language Skills</h3>
+									<ul class="cv__sidebar-list">
+										<li>
+											<span class="cv__list-lang">Azerbaijani</span>
+											<span class="cv__list-icon cv__list-icon--az">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-lang">Russian</span>
+											<span class="cv__list-icon">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-lang">English</span>
+											<span class="cv__list-icon cv__list-icon--en">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-lang">Turkish</span>
+											<span class="cv__list-icon cv__list-icon--tr">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<!-- Навыки -->
+								<div class="cv__sidebar-skills">
+									<h3>Developer Skills</h3>
+									<ul class="cv__skills-list">
+										<li>
+											<span class="cv__list-skills">html</span>
+											<span class="cv__list-icon cv__list-icon--html">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-skills">css3</span>
+											<span class="cv__list-icon cv__list-icon--css">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-skills">js</span>
+											<span class="cv__list-icon cv__list-icon--js">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-skills">jquery</span>
+											<span class="cv__list-icon cv__list-icon--jq">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<!-- Знания ПО -->
+								<div class="cv__sidebar-soft">
+									<h3>Software Skills</h3>
+									<ul class="cv__soft-list">
+										<li>
+											<span class="cv__list-soft">Photoshop</span>
+											<span class="cv__list-icon cv__list-icon--ps">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-soft">Illustrator</span>
+											<span class="cv__list-icon cv__list-icon--ii">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-soft">Sketch</span>
+											<span class="cv__list-icon cv__list-icon--sk">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+										<li>
+											<span class="cv__list-soft">inkscape</span>
+											<span class="cv__list-icon cv__list-icon--in">
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+												<i class="fa fa-circle-o-notch"></i>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<!-- Контактные данные ПО -->
+								<div class="cv__sidebar-social">
+									<ul class="cv__social-list clearfix">
+										<li>
+											<img src="./img/instr/github.svg" alt="Профиль WebSkyUS на github">
+											<span class="cv__social-list-text">
+												<a href="#">GitHub</a><br>
+												<b>Social GitHub Profile</b>
+											</span>
+										</li>
+										<li>
+											<img src="./img/instr/ln.svg" alt="Профиль WebSkyUS на linkedin">
+											<span class="cv__social-list-text">
+												<a href="#">Linkedin</a><br>
+												<b>Social Linkedin Profile</b>
+											</span>
+										</li>
+										<li>
+											<img src="./img/instr/skype.svg" alt="Профиль WebSkyUS skype">
+											<span class="cv__social-list-text">
+												<a href="#">Skype</a><br>
+												<b>Skype Profile</b>
+											</span>
+										</li>
+										<li>
+											<img src="./img/instr/mail.svg" alt="Профиль WebSkyUS email">
+											<span class="cv__social-list-text">
+												<a href="#">webskyus@gmail.com</a><br>
+												<b>Gmail</b>
+											</span>
+										</li>
+										<li>
+											<img src="./img/instr/call.svg" alt="Профиль WebSkyUS phone number">
+											<span class="cv__social-list-text">
+												<a href="#">+994706017534</a><br>
+												<b>My Phone Number</b>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Контентная часть блока резюме -->
+						<div class="col-sm-7">
+							<div class="cv__content">
+								<!-- Блок с опытом работы -->
+								<div class="cv__content-experience wow fadeInRightBig" data-wow-delay="0.7s">
+									<div class="cv__experience-title">
+										<h3>Experience</h3>
+									</div>
+									<div class="cv__experience-content">
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">2017 - till now</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<span class="cv__experience-item-text">
+														<span>Front-End Developer</span>
+														<span>Freelance / Weblancer.net</span>
+														<span>
+																I'm a freelancer, mostly I'm developing web applications,
+															 	fine-tuning other projects and inserting various kinds of edits and landing a ready project for various cms systems.
+															  There is experience with GitHub and Git. You can also view the page on <a href="#"> weblancer.net </a> for more detailed statistics.
+														</span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Блок с обучением-->
+								<div class="cv__content-experience wow fadeInRightBig" data-wow-delay="0.9s">
+									<div class="cv__experience-title">
+										<h3>Education</h3>
+									</div>
+									<div class="cv__experience-content">
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">2016</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<span class="cv__experience-item-text">
+														<span>Azerbaijan Technical University</span>
+														<span>AZU / Finished Education</span>
+														<span>
+															Defended a diploma in the profession of industrial electronics.
+														</span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="cv__experience-content">
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">2012</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<span class="cv__experience-item-text">
+														<span>Azerbaijan Technical University</span>
+														<span>AZU / Started Education</span>
+														<span>
+															Admission to the Azerbaijan Technical University at the Faculty of Radio Engineering and Communication, Department of Radio Engineering and Telecommunications
+														</span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Прочие навыки и используемы приложения  -->
+								<div class="cv__content-tools wow fadeInRightBig">
+									<div class="cv__tools-title">
+										<h3>USED ​​TECHNOLOGIES AND TOOLS</h3>
+									</div>
+									<div class="cv__experience-content">
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">Used OS</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li>
+															<img src="./img/tools/programm/windows.svg" alt="Windows 10">
+														</li>
+														<li>
+															<img src="./img/tools/programm/linux.svg" alt="Linux OS">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">Web browser</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li>
+															<img src="./img/tools/browser/ch.svg" alt="Браузер Хром">
+														</li>
+														<li>
+															<img src="./img/tools/browser/ff.svg" alt="Браузер Firefox">
+														</li>
+														<li>
+															<img src="./img/tools/browser/o.svg" alt="Браузер Opera">
+														</li>
+														<li>
+															<img src="./img/tools/browser/ie.svg" alt="Браузер Internet Explorer">
+														</li>
+														<li>
+															<img src="./img/tools/browser/sf.svg" alt="Браузер Safari">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">Notepad</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li>
+															<img src="./img/tools/programm/atom.svg" alt="Программа Atom, WebDev notepad">
+														</li>
+														<li>
+															<img src="./img/tools/programm/sub.svg" alt="Программа SublimeText3, WebDev notepad">
+														</li>
+														<li>
+															<img src="./img/tools/programm/brackets.svg" alt="Программа Brackets,WebDev notepad">
+														</li>
+														<li>
+															<img src="./img/tools/programm/st.svg" alt="Программа Visual Studio,WebDev notepad">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">Graphic software</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li>
+															<img src="./img/tools/programm/ps.svg" alt="Программа Adobe Photoshop, WebDev Graphic software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/ii.svg" alt="Программа Adobe II, WebDev Graphic software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/xd.svg" alt="Программа Adobe XD,WebDev Graphic software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/sketch.svg" alt="Программа Sketch,WebDev Graphic software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/ink.svg" alt="Программа Inkscape,WebDev Graphic software">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">MS office</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li>
+															<img src="./img/tools/programm/wd.svg" alt="Программа Word, Ms office software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/ex.svg" alt="Программа Exel, Ms office software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/pp.svg" alt="Программа PowerPoint,Ms office software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/on.svg" alt="Ms office software">
+														</li>
+														<li>
+															<img src="./img/tools/programm/ol.svg" alt="Программа outlook,Ms office software">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="cv__experience-content-wrap">
+											<div class="row">
+												<div class="col-sm-4 col-md-3">
+													<span class="cv__experience-item-left">Preprocessors</span>
+													<span class="cv__experience-item-center hidden-xs hidden-sm hidden-md">
+														<i class="cv__experience-item-icon cv__experience-item-icon--edu"></i>
+													</span>
+												</div>
+												<div class="col-sm-8 col-md-9">
+													<ul class="cv__tools-item">
+														<li title="github">
+															<img src="./img/icon-skills/github.svg" alt="Github">
+														</li>
+														<li title="grunt">
+															<img src="./img/icon-skills/grunt.svg" alt="Сборщик grunt">
+														</li>
+														<li title="jade">
+															<img src="./img/icon-skills/jade.svg" alt="Препроцессор Jade">
+														</li>
+														<li>
+															<img src="./img/icon-skills/sass.svg" alt="Препроцессор sass">
+														</li>
+														<li>
+															<img src="./img/icon-skills/less.svg" alt="Препроцессор less">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- Блок с увлечениями  -->
+								<div class="cv__content-experience wow fadeInRightBig">
+									<div class="cv__experience-title">
+										<h3>Interests</h3>
+									</div>
+									<div class="cv__interst">
+										<ul class="cv__interst-list">
+											<li>
+												<img src="./img/interes/football.svg" alt="play football">
+												<small>Play football</small>
+											</li>
+											<li>
+												<img src="./img/interes/spotify.svg" alt="listen spotify">
+												<small>Listen to music</small>
+											</li>
+											<li>
+												<img src="./img/interes/tea-cup.svg" alt="tea cup">
+												<small>To drink tea</small>
+											</li>
+											<li>
+												<img src="./img/interes/travel.svg" alt="travel">
+												<small>Traveling</small>
+											</li>
+											<li>
+												<img src="./img/interes/video-play.svg" alt="watch movie">
+												<small>Watch films</small>
+											</li>
+											<li>
+												<img src="./img/interes/web.svg" alt="web dev">
+												<small>Web developing</small>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<a href="files/cv.pdf" target="_blank" class="cv__btn-download wow flipInX" data-wow-delay="0.5s">Download CV</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Блок обратная связь -->
+				<section class="feedback" id="letter">
+					<div class="row">
+						<!-- Заголовок -->
+						<div class="col-sm-10 wow fadeInLeftBig">
+							<div class="feedback__title">
+								<h1>Обратная связь</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-10 wow fadeInLeftBig" data-wow-delay="0.75s">
+							<div class="feedback__text">
+								<p>
+									Для того что бы связатся со мной можно заполнить данную форму отправки,
+									и собственно отправить ее мне, отвечу на ваше письмо в течении 5 минут. Если вопрос связан с
+									версткой или же доработкой, возможно необходимо внести правки в готовый проект, можно указать файлы, прикрепив ссылку
+									на них. Спасибо за ваше внимание.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-2 wow fadeInRightBig" data-wow-delay="0.85s">
+							<div class="feedback__img">
+								<img src="./img/content-img/feedback-img.svg" alt='Обратная свзяь'>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 wow fadeInLeftBig">
+							<div class="feedback__img-wrap">
+								<img src="./img/instr/tl.svg" alt="Telegram">
+							</div>
+						</div>
+						<div class="col-sm-8 wow fadeInRightBig">
+							<form class="feedback__form" id="main-form">
+								<div class="feedback__form-blur">
+									<h3>Спасибо за вашу заявку! </h3>
+								</div>
+								<h3>Форма обратной связи</h3>
+								<i class="fa fa-user-o"></i><input type="text" name="Name" placeholder="Введите свое имя"><br>
+								<i class="fa fa-envelope-open-o"></i><input type="text" name="E-mail" placeholder="Введите свой e-mail..." required><br>
+								<i class="fa fa-file-text-o"></i><textarea name="Message" placeholder="Введите свое сообщение" required></textarea><br>
+								<button class="feedback__form-btn">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+			<form class="feedback__form feedback__form--style mfp-hide white-popup-block" id="test-form">
+				<div class="feedback__form-blur">
+					<h3>Спасибо за вашу заявку! </h3>
+				</div>
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="WebSkyUS">
+				<input type="hidden" name="admin_email" value="webskyus@gmail.com">
+				<input type="hidden" name="form_subject" value="Всплывашка">
+				<!-- END Hidden Required Fields -->
+				<h3 class="feedback__form-title">Отправьте ваше сообщение, и я отвечу вам в течении 5 минут</h3>
+				<i class="fa fa-user-o"></i><input type="text" name="Name" placeholder="Введите свое имя..." required><br>
+				<i class="fa fa-envelope-o"></i><input type="text" name="E-mail" placeholder="Введите свой e-mail..." required><br>
+				<i class="fa fa-telegram"></i><textarea name="Message" placeholder="Введите свое сообщение..." required></textarea><br>
+				<button class="feedback__form-btn">Отправить</button>
+			</form>
+			<div class="to-top hidden">
+				<i class="fa fa-angle-up"></i>
+			</div>
+		<link rel="stylesheet" href="css/main.min.css">
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
